@@ -8,18 +8,47 @@ const readline = require("readline");
 // Configuration
 // ==========================================
 
+
 const HOSTS = [
   {
     name: "nextjsstarter",
-    variables: {},
+    variables: {
+      NEXT_PUBLIC_SEARCH_ENV: "prod",
+      NEXT_PUBLIC_SEARCH_CUSTOMER_KEY: "202092313-225191452",
+      NEXT_PUBLIC_SEARCH_API_KEY:
+        "01-8fa0d33b-6fefe6b976b8efc209b6d71333d76141d2f549be",
+      NEXT_PUBLIC_SEARCH_SOURCE: "1193018",
+    },
+  },
+  {
+    name: "nuix",
+    variables: {
+      NEXT_PUBLIC_SEARCH_ENV: "prod",
+      NEXT_PUBLIC_SEARCH_CUSTOMER_KEY: "202092313-225191452",
+      NEXT_PUBLIC_SEARCH_API_KEY:
+        "01-8fa0d33b-6fefe6b976b8efc209b6d71333d76141d2f549be",
+      NEXT_PUBLIC_SEARCH_SOURCE: "1193018",
+    },
   },
   {
     name: "travel",
-    variables: {},
+    variables: {
+      NEXT_PUBLIC_SEARCH_ENV: "prod",
+      NEXT_PUBLIC_SEARCH_CUSTOMER_KEY: "202092313-225191452",
+      NEXT_PUBLIC_SEARCH_API_KEY:
+        "01-8fa0d33b-6fefe6b976b8efc209b6d71333d76141d2f549be",
+      NEXT_PUBLIC_SKYWINGS_SEARCH_SOURCE: "1197636",
+    },
   },
   {
     name: "energy",
-    variables: {},
+    variables: {
+      NEXT_PUBLIC_SEARCH_ENV: "prod",
+      NEXT_PUBLIC_SEARCH_CUSTOMER_KEY: "202092313-225191452",
+      NEXT_PUBLIC_SEARCH_API_KEY:
+        "01-8fa0d33b-6fefe6b976b8efc209b6d71333d76141d2f549be",
+      NEXT_PUBLIC_GRIDWELL_SEARCH_SOURCE: "1202901",
+    },
   },
   {
     name: "healthcare",
@@ -30,6 +59,7 @@ const HOSTS = [
     variables: {},
   },
 ];
+
 
 // ==========================================
 // Argument Parsing
