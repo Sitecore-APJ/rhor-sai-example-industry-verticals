@@ -74,7 +74,7 @@ const HeroBannerCommon = ({
         )}
         {/* Gradient overlay to fade image/video at bottom */}
         {!hideGradientOverlay && (
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent from-85% to-white"></div>
+          <div className="via-background/80 to-background absolute inset-0 bg-gradient-to-b from-transparent from-70%"></div>
         )}
       </div>
 
@@ -102,7 +102,7 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
             <div className="max-w-182">
               <div className={clsx({ shim: screenLayer })}>
                 {/* Title */}
-                <h1 className="text-center text-5xl leading-[110%] font-bold capitalize md:text-7xl md:leading-[130%] lg:text-left xl:text-[80px]">
+                <h1 className="text-center text-5xl leading-[110%] font-bold capitalize drop-shadow-sm md:text-7xl md:leading-[130%] lg:text-left xl:text-[80px]">
                   <ContentSdkText field={fields.Title} />
                   {!hideAccentLine && <AccentLine className="mx-auto !h-5 w-[9ch] lg:mx-0" />}
                 </h1>
@@ -150,7 +150,7 @@ export const TopContent = ({ params, fields, rendering }: HeroBannerProps) => {
           >
             <div className={clsx({ shim: screenLayer })}>
               {/* Title */}
-              <h1 className="text-center text-5xl leading-[110%] font-bold capitalize md:text-7xl md:leading-[130%] xl:text-[80px]">
+              <h1 className="text-center text-5xl leading-[110%] font-bold capitalize drop-shadow-sm md:text-7xl md:leading-[130%] xl:text-[80px]">
                 <ContentSdkText field={fields.Title} />
                 {!hideAccentLine && <AccentLine className="mx-auto !h-5 w-[9ch]" />}
               </h1>

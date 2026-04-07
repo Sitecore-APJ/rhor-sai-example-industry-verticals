@@ -239,7 +239,7 @@ export const WithQuote = (props: PromoProps): JSX.Element => {
     >
       {withQuote && (
         <div
-          className={`absolute left-5 md:top-[10%] lg:top-[25%] lg:left-1/2 lg:-translate-x-1/2 ${classesWhenReversed.quoteFlip} } text-background-accent! z-20`}
+          className={`text-accent/25 absolute left-5 z-20 md:top-[10%] lg:top-[25%] lg:left-1/2 lg:-translate-x-1/2 ${classesWhenReversed.quoteFlip}`}
         >
           <Quote className="h-10 md:h-20 lg:h-25 xl:h-30" />
         </div>

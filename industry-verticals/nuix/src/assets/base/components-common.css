@@ -31,7 +31,7 @@
 }
 
 .arrow-btn {
-  @apply border-b-accent text-accent inline-flex items-center justify-start gap-3 border-b leading-8;
+  @apply border-b-accent text-brand hover:border-accent hover:text-accent inline-flex items-center justify-start gap-3 border-b pb-0.5 text-sm font-semibold tracking-wide uppercase transition-colors;
 
   &::after {
     @apply bg-accent inline-block h-3 w-11 mask-[url('./images/arrow.svg')] bg-contain bg-no-repeat mask-contain mask-center mask-no-repeat content-[''];
@@ -39,11 +39,11 @@
 }
 
 .carousel-btn {
-  @apply text-foreground! bg-background z-10 size-12 content-center rounded-full shadow-md;
+  @apply text-foreground! bg-background border-border/80 z-10 size-12 content-center rounded-full border shadow-md;
 }
 
 .surface-btn {
-  @apply bg-background-surface text-accent flex size-6 items-center justify-center rounded font-bold transition-shadow hover:shadow-md;
+  @apply bg-background-surface text-brand flex size-6 items-center justify-center rounded-md font-bold transition-shadow hover:shadow-md;
 
   &[disabled] {
     @apply pointer-events-none opacity-60;
@@ -55,11 +55,11 @@
 }
 
 .action-btn {
-  @apply text-accent hover:text-accent/80 hover:border-accent/80 border-accent flex h-10 items-center gap-3 border-b bg-transparent text-lg font-semibold;
+  @apply text-brand hover:text-accent hover:border-accent border-brand flex h-10 items-center gap-3 border-b bg-transparent text-sm font-semibold tracking-wide uppercase transition-colors;
 }
 
 .main-btn {
-  @apply bg-accent text-background hover:bg-accent/95 flex w-full items-center justify-center rounded-md p-3 text-center text-lg font-semibold transition-all hover:shadow-md;
+  @apply bg-brand text-background hover:bg-brand-dark inline-flex w-full items-center justify-center rounded-full px-8 py-3.5 text-center text-sm font-semibold tracking-wide uppercase transition-all hover:shadow-lg;
 
   &[disabled] {
     @apply pointer-events-none opacity-60;

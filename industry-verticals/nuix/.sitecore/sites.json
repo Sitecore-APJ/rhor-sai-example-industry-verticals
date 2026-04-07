@@ -1,0 +1,52 @@
+[
+  {
+    "name": "nuix",
+    "hostName": "*",
+    "language": "en"
+  },
+  {
+    "name": "nuix",
+    "hostName": "*",
+    "language": "en"
+  },
+  {
+    "name": "my-nrma",
+    "hostName": "*",
+    "language": "en"
+  },
+  {
+    "name": "hbf",
+    "hostName": "*",
+    "language": "en"
+  },
+  {
+    "name": "hbf-portal",
+    "hostName": "*",
+    "language": "en"
+  },
+  {
+    "name": "essential-living",
+    "hostName": "*",
+    "language": "en"
+  },
+  {
+    "name": "forma-lux",
+    "hostName": "*",
+    "language": "en"
+  },
+  {
+    "name": "skywings",
+    "hostName": "*",
+    "language": "en"
+  },
+  {
+    "name": "gridwell",
+    "hostName": "*",
+    "language": "en"
+  },
+  {
+    "name": "nova-medical",
+    "hostName": "*",
+    "language": "en"
+  }
+]

@@ -29,32 +29,54 @@
   }
 }
 
+/* Vibrant brand band (XLR8-style blue blocks) */
 .container-color-background {
   > .component-content {
-    @apply border-background-accent;
+    @apply border-surface-brand;
   }
 
   &:not(.container),
   &.container > .component-content {
-    @apply bg-background-accent border-background-accent;
-  }
-}
-
-.container-dark-background {
-  > .component-content {
-    @apply border-accent;
-  }
-
-  &:not(.container),
-  &.container > .component-content {
-    @apply bg-accent border-accent text-background;
+    @apply bg-surface-brand border-surface-brand text-background;
 
     * {
       @apply text-inherit;
     }
 
+    p {
+      @apply text-inherit opacity-90;
+    }
+
     .arrow-btn {
-      @apply border-b-background;
+      @apply border-b-background text-background;
+
+      &::after {
+        @apply bg-background;
+      }
+    }
+  }
+}
+
+/* Deep black / navy editorial blocks */
+.container-dark-background {
+  > .component-content {
+    @apply border-white/15;
+  }
+
+  &:not(.container),
+  &.container > .component-content {
+    @apply bg-surface-dark text-background border-white/15;
+
+    * {
+      @apply text-inherit;
+    }
+
+    p {
+      @apply text-inherit opacity-90;
+    }
+
+    .arrow-btn {
+      @apply border-b-background text-background;
 
       &::after {
         @apply bg-background;
@@ -117,11 +139,14 @@
 }
 
 .container-dark-background .shim {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 180, 216, 0.12);
   padding: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .shim {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(8px);
   padding: 50px;
+  border: 1px solid rgba(0, 90, 156, 0.08);
 }

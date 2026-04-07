@@ -26,6 +26,9 @@
 # except for component-map
 !.sitecore/component-map.ts
 !.sitecore/import-map.ts
+# stubs overwritten by `sitecore-tools project build` (committed so tsc / Husky work without Sitecore API)
+!.sitecore/sites.json
+!.sitecore/metadata.json
 
 *storybook.log
 storybook-static

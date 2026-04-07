@@ -76,7 +76,7 @@ export const Default = (props: BreadcrumbProps) => {
   return (
     <nav
       aria-label="breadcrumb"
-      className={`component breadcrumb bg-background-muted ${styles}`}
+      className={`component breadcrumb border-border/60 bg-background-muted/80 border-b ${styles}`}
       id={id}
     >
       <ol className="container flex items-center gap-4 overflow-auto py-4 lg:py-7">
@@ -84,7 +84,7 @@ export const Default = (props: BreadcrumbProps) => {
           <li key={homeAncestor.id} className="text-foreground-light flex items-center gap-4">
             <Link
               field={homeAncestor.url}
-              className="hover:text-foreground whitespace-nowrap transition-colors"
+              className="hover:text-brand whitespace-nowrap transition-colors"
               title={getNavItemTitle(homeAncestor, false)}
             >
               <span className="hidden max-md:inline">
@@ -110,7 +110,7 @@ export const Default = (props: BreadcrumbProps) => {
           >
             <Link
               field={ancestor.url}
-              className="hover:text-foreground whitespace-nowrap transition-colors"
+              className="hover:text-brand whitespace-nowrap transition-colors"
               title={getNavItemTitle(ancestor, false)}
             >
               {getNavItemTitle(ancestor)}
@@ -123,7 +123,7 @@ export const Default = (props: BreadcrumbProps) => {
           <li key={lastAncestor.id} className="text-foreground-light flex items-center gap-4">
             <Link
               field={lastAncestor.url}
-              className="hover:text-foreground whitespace-nowrap transition-colors"
+              className="hover:text-brand whitespace-nowrap transition-colors"
               title={getNavItemTitle(lastAncestor, false)}
             >
               {getNavItemTitle(lastAncestor)}
@@ -133,7 +133,7 @@ export const Default = (props: BreadcrumbProps) => {
         )}
 
         <li
-          className="border-foreground border-l py-2 pl-4 whitespace-nowrap lg:ml-4 lg:pl-8"
+          className="border-brand text-brand border-l py-2 pl-4 font-medium whitespace-nowrap lg:ml-4 lg:pl-8"
           title={getNavItemTitle(item, false)}
         >
           {getNavItemTitle(item)}
