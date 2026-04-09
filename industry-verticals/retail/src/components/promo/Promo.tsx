@@ -84,6 +84,7 @@ export const SingleImageContainer = ({
             <ContentSdkImage field={PromoImageOne} className="h-full w-full object-cover" />
           </div>
         </div>
+        <div className="hidden">test</div>
       </div>
     </>
   );
