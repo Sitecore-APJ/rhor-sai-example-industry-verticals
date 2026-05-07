@@ -22,8 +22,15 @@ SharedFields:
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
         <r
-          uid="{0272CCD9-66C7-41FF-A0FE-5ED3552B7CB3}"
+          uid="{E6F7A8B9-C0D1-4234-E5F6-A7B8C9D0E1F2}"
           p:before="*"
+          s:ds="e9f0a1b2-c3d4-4567-ef89-012345678901"
+          s:id="{A8F3E2D1-4C5B-4E7F-8091-A2B3C4D5E6F0}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Reversed&amp;ShowMultipleImages&amp;HideCurveLine&amp;HideShapes&amp;HideShadows&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=20"
+          s:ph="headless-footer" />
+        <r
+          uid="{0272CCD9-66C7-41FF-A0FE-5ED3552B7CB3}"
+          p:after="r[@uid='{E6F7A8B9-C0D1-4234-E5F6-A7B8C9D0E1F2}']"
           s:ds="d1a5bc7c-2138-4765-a5df-0d79e3e898e1"
           s:id="{02654BA0-74AE-42A4-B384-BCA9B96ADF4B}"
           s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"

@@ -1,0 +1,35 @@
+---
+ID: "f5ea2233-b609-5bbe-cf88-223344556677"
+Parent: "e1f81234-c587-4bcb-ae66-0123456789ab"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Forms/Identity Event/IdentityEvent/Labels/SubmitLabel"
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "b118496a-0f78-4a27-b55f-0a6c4b0b0fe1"
+  Hint: Default value
+  Value: Send identity event
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "be351a73-fcb0-4213-93fa-c302d8ab4f51"
+  Hint: Shared
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+      Hint: Title
+      Value: Submit label
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260507T120000Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a0000008-0000-4000-8000-000000000008"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260507T120000Z

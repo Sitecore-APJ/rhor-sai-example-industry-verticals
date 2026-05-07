@@ -1,0 +1,25 @@
+---
+ID: "c7d8e9f0-a1b2-4345-cd67-890123456789"
+Parent: "a0d6eb3c-9154-607f-bc23-debaca0a0825"
+Template: "a0d6eb3c-9154-607f-bc23-debaca0a0825"
+Path: "/sitecore/templates/Project/industry-verticals/Components/Forms/Identity Event/IdentityEvent Folder/__Standard Values"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {F9C5DA2B-8043-5F6E-AB12-CD9AB9F9F714}
+    {A0D6EB3C-9154-607F-BC23-DEBACA0A0825}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260507T120000Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a0000005-0000-4000-8000-000000000005"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260507T120000Z

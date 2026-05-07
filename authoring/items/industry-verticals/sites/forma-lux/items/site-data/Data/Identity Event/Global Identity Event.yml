@@ -1,0 +1,26 @@
+---
+ID: "e9f0a1b2-c3d4-4567-ef89-012345678901"
+Parent: "d8e9f0a1-b2c3-4456-de78-901234567890"
+Template: "f9c5da2b-8043-5f6e-ab12-cd9ab9f9f714"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Identity Event/Global Identity Event"
+SharedFields:
+- ID: "f4e91122-a598-4aad-be77-112233445566"
+  Hint: Title
+  Value: Identity event
+- ID: "f5ea2233-b609-5bbe-cf88-223344556677"
+  Hint: SubmitLabel
+  Value: Send identity event
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260507T120000Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b0000003-0000-4000-8000-000000000003"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260507T120000Z
